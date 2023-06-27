@@ -4,15 +4,26 @@ This repository is for academic proposes.
 Here we have a group of people that worked together during the semester to learn about Artificial Inteligence and how to build it
 from a database, furthermore, python is the programming language applied to analysing data.
 
-The dataset that our group chose belongs to Kaggle and may be found in https://www.kaggle.com/datasets/crisparada/brazilian-cities.
+The dataset that our group chose belongs to Kaggle and may be found on the url below
 
-As source to do our classification base may be found in https://repositorio.ipea.gov.br/bitstream/11058/5167/6/PPE_v45_n02_% C3%8Dndice_de_Desenvolvimento_Humano.pdf
+https://www.kaggle.com/datasets/crisparada/brazilian-cities
 
-https://atlassocioeconomico.rs.gov.br/indice-de-desenvolvimento-human o-idh-e-idhm#:~:text=Conforme%20o%20relat%C3%B3rio%20de%20De senvolvimento,86%C2%AA%2C%20com%20%C3%ADndice%20de%20 0%2C758.
+As source to do our classification base, the content studied is presente on the urls below
 
-# Our targets to analyse
+https://repositorio.ipea.gov.br/bitstream/11058/5167/6/PPE_v45_n02_%C3%8Dndice_de_Desenvolvimento_Humano.pdf
+
+https://atlassocioeconomico.rs.gov.br/indice-de-desenvolvimento-humano-idh-e-idhm#:~:text=Conforme%20o%20relat%C3%B3rio%20de%20Desenvolvimento,86%C2%AA%2C%20com%20%C3%ADndice%20de%200%2C758
+
+# Variable target and colunms used
 
 Nosso projeto tem como objetivo determinar o quão ideal é viver em cada município, com isso em mente, escolhemos dentre as informações disponíveis as que definimos como relevantes, são elas: 
+
+IDHM
+
+● Indice de Desenvolvimento Humano
+
+Indicador populacional dividido por intervalo numérico entre 0 e 1, o qual indica o grau de desenvolvimento da cidade baseado em três pilares fundamentais, dos quais tem-se educação, renda per capita e saúde.
+A partir disso, definimos esta variável como alvo para nosso estudo de classificação das cidade, que indica quanto mais próximo de zero pior o seu índice e quanto mais próximo de um melhor seu índice.
 
 
 COMP_E
@@ -58,7 +69,7 @@ Tal como o anterior, esse índice levantado no Atlas de Desenvolvimento Humano a
 COMP_E, além de outros. 
 
 
-Glossary: 
+# Glossary
 
 IBGE: Instituto Brasileiro de Geografia e Estatística. 
 CEMPRE: Cadastro Central de Empresas. 
