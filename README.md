@@ -71,11 +71,11 @@ COMP_E, além de outros.
 
 # Glossário
 
-IBGE: Instituto Brasileiro de Geografia e Estatística. 
-CEMPRE: Cadastro Central de Empresas. 
-PIB: Produto Interno Bruto. 
-IDH: Índice de Desenvolvimento Humano. 
-Ipea: Instituto de Pesquisa Econômica Aplicada. 
+IBGE: Instituto Brasileiro de Geografia e Estatística.
+CEMPRE: Cadastro Central de Empresas.
+PIB: Produto Interno Bruto.
+IDH: Índice de Desenvolvimento Humano.
+Ipea: Instituto de Pesquisa Econômica Aplicada.
 Pnud: Programa das Nações Unidas para o Desenvolvimento.
 PEA: População Economicamente Ativa.
 
@@ -84,7 +84,7 @@ PEA: População Economicamente Ativa.
 Quanto a área de análise dos dados do dataset, fizemos o tratamento dos dados que estavam com campos vazios ou nulos para se ter uma melhor precisão para os cálculos e, além disso, a normalização desses dados antes de iniciar sua manipulação de fato.
 A partir disso, foram calculadas as médias, medianas e moda, as quais também são conhecidas como medidas de tendência central. Não obstante, fez os cálculos das variações como, por exemplo, desvio padrão, variância, correlação entre outros.
 
-Com o intuito de de verificar a exatidão e o rumo correto de nossa análise, colocamos os resultados em gráficos dos tipos boxplot, scatterplot, histograma, de barras e de linha.
+Com o intuito de se verificar a exatidão e o rumo correto de nossa análise, colocamos os resultados em gráficos dos tipos boxplot, scatterplot, histograma, de barras e de linha.
 
 Os três modelos de machine learning aplicados são Árvore de decisão, KNN e Naive Bayes.
 Escolheu-se os modelos acima para que fosse possivel fazer a classificação das cidades como ruim, média ou boa para se viver com base nos resultados dos cálculos do IDH.
@@ -93,11 +93,11 @@ Quanto a Árvore de decisão, esta consiste geralmente em um começo com um úni
 Existem três tipos de nós: nós de probabilidade, nós de decisão e nós de término e, assim, têm-se a formação de uma árvore.
 Ela permite que seja feita a comparação de possíveis ações com base em seus custos, probabilidades e benefícios, além de mapear um algoritmo que prevê a melhor escolha, matematicamente.
 
-Já o K — Nearest Neighbors (KNN) é um de aprendizagem supervisionada, ele é um classificador onde o aprendizado é baseado no quão próximo ou semelhante é um dado do outro. O treinamento é formado por vetores de n dimensões e, dessa forma, a partir do cálculo de distância entre um vetor e outros faz-se a rotulação.
+Já o K-Nearest Neighbors (KNN) é um modelo de aprendizagem supervisionada, ele é um classificador onde o aprendizado é baseado no quão próximo ou semelhante é um dado do outro. O treinamento é formado por vetores de n dimensões e, dessa forma, a partir do cálculo de distância entre um vetor e outro faz-se a rotulação.
 
 Por último, o Naive Bayes é um algoritmo de classificação de dados, ou seja, a partir da análise da tabela de dados, ele cria classes e oferece uma resposta a partir de critérios estabelecidos. É recomendado para aplicação como filtro, que, no caso do UrbanIA, foi importante para contribuir na classificação das cidades.
 
-Para finalizar, foi feito um comitê que com base nas respostas de cada um dos algoritmos aplicaos acima, classificou o IDH como baixo, médio e alto e, com isso, apontou se a cidade era ruim, média ou boa.
+Para finalizar, foi feito um comitê que com base nas respostas de cada um dos algoritmos aplicados acima, classificou-se o IDH como baixo, médio e alto e, com isso, apontou se a cidade era ruim, média ou boa.
 Separamos em duas vertentes este comitê, na primeira, escreve-se o nome da cidade e a IA classificava com base nas colunas usadas acima especificadas neste readme e exibia seus valores. Na segunda, insere-se valores fictícios para cada uma das colunas acimas especificadas neste readme e a IA exibia a decisão quanto a classificação do IDH e apontamento da cidade com as mesmas três categorias explicadas anteriormente.
 
 
@@ -106,4 +106,4 @@ Separamos em duas vertentes este comitê, na primeira, escreve-se o nome da cida
 Conforme exposto ao início deste readme, tem-se o objetivo de classificar as cidades brasileiras para decidir qual a melhor para se viver.
 Entretanto, em quê isso ajudaria e contribuiria de alguma maneira para a sociedade?
 
-Bem, a ideia é apontar os pilares importantes de infraestrutura para um cidadão viver, como educação, saúde, renda per capita etc, a fim de apresentar aos governantes, daquela cidade, por exemplo, qual o desses itens necessitam de investimento para que não só mais pessoas fossem atraídas para certa cidade, como também melhorar as condições de vida das que já moram ali.
+Bem, a ideia é apontar os pilares importantes de infraestrutura para um cidadão viver, como educação, saúde, renda per capita etc, a fim de apresentar aos governantes, daquela cidade, por exemplo, qual desses itens necessitam de investimento para que não só mais pessoas fossem atraídas para certa cidade, como também melhorar as condições de vida das que já moram ali.
